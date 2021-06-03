@@ -1,1 +1,204 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*General Styles*/
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    padding: 5% 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/*Header Styles*/
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 4%
+}
+
+.name{
+    width: 30%;
+}
+
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.links a{
+    border: 1px solid #4f4f4f;
+    padding: 1% 6%;
+}
+
+/*Hero Section Styles*/
+
+.hero__section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding-top:0;
+}
+
+.hero__background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../assets/hero.jpg');
+    background-position: center;
+    background-size: cover;
+
+    width: 85%;
+    height: 80vh;
+}
+
+.hero__content h2{
+    color: white;
+    font-size: 6rem;
+}
+
+.hero__content button{
+    background-color:white;
+    outline: 0;
+    border: 2px solid #4f4f4f;
+    padding: 2% 8%;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+}
+
+.hero__content button:hover{
+    cursor: pointer;
+}
+
+/*Projects Section Styles*/
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.project{
+    text-align: center;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.project img{
+    width: 80%;
+}
+
+.project h2{
+    margin-top: 2%;
+}
+
+/* Footer Styles */
+
+footer{
+    padding: 4% 0;
+    background-color: #bdbdbd;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer button{
+    background-color:white;
+    outline: 0;
+    border: 2px solid #4f4f4f;
+    padding: 1vh 1.5vw;
+    font-size: 2rem;
+    color: #4f4f4f;
+
+    margin-bottom:1vh;
+}
+
+footer button:hover{
+    cursor: pointer;
+}
+
+.socials a{
+    font-size: 3rem;
+    margin: 0 1%;
+    width: 100%;
+}
