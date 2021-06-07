@@ -202,3 +202,68 @@ footer button:hover{
     margin: 0 1%;
     width: 100%;
 }
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 5% 0;
+    }
+
+    .name{
+        text-align: center;
+        width: 100%;
+    }
+
+    .links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 25%;
+        margin: 2% 0;
+    }
+
+    .project{
+        width: 48%;
+        margin-bottom: 5%;
+        margin-top:8%;
+    }
+
+    .project h2{
+        font-size: 2.5rem;
+        margin-top: 4%;
+    }
+
+    .hero__background{
+        height: 40vh;
+    }
+
+    .hero__content h2{
+        color: white;
+        font-size: 3rem;
+    }
+    
+    .hero__content button{
+        font-size: 1.3rem;
+    }
+
+    .footerContent{
+        padding: 5% 0;
+    }
+
+    footer button{
+        font-size: 1.9rem;
+    }
+
+    .socials a{
+        margin: 0 3%;
+    }
+
+}
